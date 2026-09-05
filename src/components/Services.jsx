@@ -26,7 +26,7 @@ const services = [
   {
     icon: <FaLightbulb />,
     title: "Glow Sign Boards",
-    text: "LED acrylic and ACP illuminated sign boards with premium finishing.",
+    text: "LED acrylic sign boards with premium finishing.",
   },
   {
     icon: <FaBullhorn />,

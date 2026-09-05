@@ -627,3 +627,100 @@ h1,h2,h3,h4{
   color: #6b7280;
   line-height: 1.7;
 }
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section{
+  padding:100px 0;
+  background:#ffffff;
+}
+
+.about-grid{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:60px;
+  align-items:center;
+}
+
+.section-tag{
+  color:#F97316;
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:2px;
+}
+
+.about-content h2{
+  font-size:42px;
+  margin:18px 0;
+  color:#111827;
+}
+
+.about-text{
+  color:#6B7280;
+  line-height:1.9;
+  margin-bottom:28px;
+}
+
+.about-list{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.about-list div{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-weight:500;
+}
+
+.about-list svg{
+  color:#F97316;
+}
+
+.about-stats{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+}
+
+.stat-card{
+  background:#F8FAFC;
+  padding:28px 20px;
+  border-radius:18px;
+  text-align:center;
+  transition:.3s;
+  border:1px solid #E5E7EB;
+}
+
+.stat-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 16px 35px rgba(124,58,237,.12);
+}
+
+.stat-icon{
+  font-size:32px;
+  color:#7C3AED;
+  margin-bottom:14px;
+}
+
+.stat-card h3{
+  font-size:34px;
+  color:#111827;
+}
+
+.stat-card p{
+  color:#6B7280;
+}
+
+@media(max-width:900px){
+
+  .about-grid{
+    grid-template-columns:1fr;
+  }
+
+  .about-content h2{
+    font-size:34px;
+  }
+}

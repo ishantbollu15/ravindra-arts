@@ -24,7 +24,7 @@ const features = [
   {
     icon: <FaHandshake />,
     title: "Trusted Since 2010",
-    text: "15+ years of experience serving shops, businesses and commercial projects across Mumbai.",
+    text: "15+ years of experience serving shops, businesses and commercial projects across Bhiwandi.",
   },
 ];
 

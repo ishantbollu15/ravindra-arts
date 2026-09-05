@@ -31,7 +31,7 @@ function Hero() {
           <p>
             Ravindra Arts delivers premium Flex Printing, Vinyl Graphics,
             LED Glow Sign Boards, One Way Vision and Outdoor Advertising
-            across Maharashtra.
+            across Mumbai.
           </p>
 
           <div className="hero-buttons">
@@ -66,7 +66,7 @@ function Hero() {
               <FaLightbulb />
               <div>
                 <h4>Glow Sign Boards</h4>
-                <p>LED • Acrylic • ACP</p>
+                <p>LED • Acrylic</p>
               </div>
             </div>
 

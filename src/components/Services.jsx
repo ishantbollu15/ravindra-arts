@@ -63,7 +63,7 @@ function Services() {
               <p>{service.text}</p>
 
               <button className="service-link">
-                Learn More →
+                Get Quote →
               </button>
             </div>
           ))}
